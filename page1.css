@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&family=Poppins:wght@200;300;600;700;800;900&family=Roboto&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* height: 100vh; */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)), url(./bgimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    font-family: poppins;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    line-height: normal;
+}
+
+.name,
+.doing,
+.dev {
+    line-height: normal;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.dev {
+    color: rgb(225, 225, 227);
+}
+
+.name {
+    margin-top: 100px !important;
+    font-size: 50px;
+}
+
+.auto-type {
+    color: rgb(24, 128, 255);
+}
+
+.yuvi {
+    color: rgb(24, 128, 255);
+}
+
+img {
+    margin-top: 100px !important;
+    width: 400px;
+    border-radius: 60px 0px 60px 0px;
+    border: 3px rgb(0, 102, 228) solid;
+}
+
+.btm {
+    width: 180px !important;
+    height: 50px;
+    border: solid 3px white !important;
+    border-radius: 4px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #000;
+    /* background-color: gray; */
+    color: #d1d1d1;
+    font-weight: 400;
+    font-size: 23px;
+    text-decoration: solid !important;
+    transition: 0.5s;
+
+}
+
+.btm:hover {
+    transform: scale(1.1);
+    color: rgb(0, 102, 228);
+    border: solid 3px rgb(0, 102, 228) !important;
+    box-shadow:0 0 2em 0 rgb(0, 102, 228, 0.4),0 0 3em 0 rgb(0, 102, 228, 0.5);
+}
+a{
+    text-decoration: none !important;
+}
+.exp {
+    margin: 0;
+    text-decoration: none !important;
+}
+
+p{
+    text-decoration: none;
+}
+
+@media (max-width:768px) {
+    
+img{
+    width: 300px;
+    margin-top: 40px !important;
+}
+.name{
+    font-size: 30px;
+    margin-top: 30px !important;
+    margin-left: 20px !important;
+}
+.btm{
+    margin-top: 40px !important;
+    margin-bottom: 90px !important;
+    width: 150px;
+    height: 45px;
+}
+.dev{
+    font-size: 24px;
+    margin-left: 20px !important;
+}
+.auto-type{
+    margin-left: 20px !important;
+}
+}

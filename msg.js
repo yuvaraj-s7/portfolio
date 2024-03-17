@@ -1,0 +1,3 @@
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script> <script> emailjs.init("DIyUXtro2aoxkfU9D"); // Replace with your Email.js user ID document.getElementById("contact-form").addEventListener("submit", function (event) { event.preventDefault(); 
+emailjs.sendForm("service_97duc0a", "template_5n3lpln", this) .then(function (response) { 
+    alert("Email sent successfully!"); }, function (error) { console.error("Email could not be sent:", error); }); }); </script>
